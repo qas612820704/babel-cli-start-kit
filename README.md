@@ -23,6 +23,12 @@ $ yarn install
 $ yarn start
 ```
 
+After you starting your program, you can remove cowsay that not needed by
+
+```sh
+$ yarn remove cowsay
+```
+
 ## Build
 ```sh
 $ yarn build
