@@ -19,6 +19,7 @@ $ yarn install
 ```
 
 ## Start
+
 ```sh
 $ yarn start
 ```
@@ -27,6 +28,13 @@ After you starting your program, you can remove cowsay that not needed by
 
 ```sh
 $ yarn remove cowsay
+```
+
+## Develop
+
+And start `coding`!
+```sh
+$ yarn develop
 ```
 
 ## Build

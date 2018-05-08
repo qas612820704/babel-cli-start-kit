@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
+    "develop": "nodemon --exec 'clear && npm start' --watch src/",
     "build": "webpack --config webpack.production.config.js"
   },
   "dependencies": {
@@ -17,6 +18,7 @@
     "@babel/preset-env": "^7.0.0-beta.46",
     "@babel/register": "^7.0.0-beta.46",
     "babel-loader": "^8.0.0-beta",
+    "nodemon": "^1.17.4",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "webpack": "^4.8.1",
     "webpack-cli": "^2.1.3",
